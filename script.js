@@ -22,9 +22,9 @@ const compareGuesses = (humanGuess, computerGuess, secretTarget) => {
 // Determines the winner and returns a string indicating the winner.
 const updateScore = (winner) => {
   if (winner === "human") {
-    return "human";
+    humanScore++;
   } else if (winner === "computer") {
-    return "computer";
+    computerScore++;
   }
 };
 
